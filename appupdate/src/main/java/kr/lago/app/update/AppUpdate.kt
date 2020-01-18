@@ -20,7 +20,7 @@ import com.google.android.play.core.install.model.UpdateAvailability
 class AppUpdate(private val activity: Activity, private val type: TYPE) :
     InstallStateUpdatedListener {
 
-    private val TAG = this.activity.packageName
+    private val TAG = "InAppUpdate"
 
     enum class TYPE(val value: Int) {
         FLEXIBLE(0),
