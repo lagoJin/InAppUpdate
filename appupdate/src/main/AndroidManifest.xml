@@ -1,2 +1,1 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kr.lago.app.update" />
+<manifest package="kr.lago.app.update" />
